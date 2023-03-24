@@ -3,7 +3,7 @@ package src.chat2.ch14;
 public class TakeTransTest {
 
     public static void main(String[] args) {
-        Student studentP = new Student("Pakr", 5000);
+        Student studentP = new Student("Park", 5000);
         Student studentK = new Student("kim", 10000);
 
         Bus bus100 = new Bus(100);
