@@ -22,7 +22,6 @@ public class CustomerTest {
         customerNo.bonusPoint = 10000;
         int priceNo = customerNo.calcPrice(10000);
         System.out.println(customerNo.showCustomerInfo() + " 지불금액은 " + priceNo  + "원 입니다.");
-
     }
 }
 
