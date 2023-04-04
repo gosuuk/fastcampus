@@ -1,6 +1,8 @@
-package src.chat3.ch11;
+package src.chat3.ch14;
 
-public class CompleteCalc extends Calculator{
+import src.chat3.ch11.Calculator;
+
+public class CompleteCalc extends Calculator {
     @Override
     public int qwe(int num1, int num2) {
         return num1*num2;
@@ -14,9 +16,8 @@ public class CompleteCalc extends Calculator{
     public void showInfo() {
         System.out.println("모두 구현했습니다.");
     }
-
     @Override
     public void description() {
-
+        System.out.println("CompleteCale overriding");
     }
 }
