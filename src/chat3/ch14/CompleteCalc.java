@@ -2,7 +2,7 @@ package src.chat3.ch14;
 
 import src.chat3.ch11.Calculator;
 
-public class CompleteCalc extends Calculator {
+public class CompleteCalc<M> extends Calculator {
     @Override
     public int qwe(int num1, int num2) {
         return num1*num2;
